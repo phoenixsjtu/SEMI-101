@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="136" viewBox="0 0 256 136">
+  <rect x=".5" y=".5" width="255" height="135" rx="12" fill="#e8f0f5" stroke="#b5c9d6"/>
+  <path d="M20 89H236M145 22h78m-78 53h78" fill="none" stroke="#8da8bc" stroke-opacity=".52" stroke-dasharray="3 4"/>
+  <text x="20" y="31" fill="#3b607c" font-family="monospace" font-size="13" font-weight="600" letter-spacing="1">02 / PROCESS</text>
+  <g fill="none" stroke="#284c68" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="183" cy="47" rx="34" ry="14" transform="rotate(-12 183 47)"/>
+    <path d="M151 54c3 7 19 9 36 5s30-13 29-20M152 61c3 7 19 9 36 5s30-13 29-20"/>
+    <path d="m161 42 41-8m-48 16 57-11m-47 16 39-8m-36-9 9 19m3-23 10 20m3-22 10 17" stroke="#658ca9" stroke-width="1.05"/>
+    <path d="M141 47h5m77 0h7"/>
+  </g>
+  <text x="20" y="116" fill="#152f46" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="700">工艺智能</text>
+  <path d="M211 107h24m-7-7 7 7-7 7" fill="none" stroke="#355e7e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

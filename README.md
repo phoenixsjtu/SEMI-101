@@ -1,43 +1,37 @@
-# SEMI 101
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/home/cover-white.jpg">
+    <img src="assets/home/cover.png" width="100%" alt="SEMI 101 · 等离子处理腔室的概念速写">
+  </picture>
+</p>
 
-**半导体设备智能化知识库** · Semiconductor Equipment Intelligence
+<h1 align="center">半导体设备智能化</h1>
 
-从一个设备问题开始。想知道腔室结构如何影响晶圆均匀性，可以读设备设计。手里有设备轨迹和量测结果，可以读工艺智能。面对反复出现的告警，可以读设备运维。
+<p align="center">面向行业新人和研究人员的学习地图与资源库</p>
 
-[新手入门](learn/README.md) · [论文导读](catalog/papers.md) · [数据集总览](catalog/datasets.md) · [代码索引](catalog/code.md) · [术语速查](catalog/glossary.md)
+<p align="center">
+  <a href="learn/README.md"><img src="assets/home/start.svg" width="176" height="46" alt="从这里开始"></a>
+</p>
 
 ## 学习地图
 
-各专题可以独立阅读。每篇用实际设备或公开实验讲清问题、方法和验证依据，并留一个读图或判断练习。
+<p align="center">
+  <a href="learn/design.md"><img src="assets/home/design.svg" width="31%" alt="01 设备设计"></a>
+  <a href="learn/process.md"><img src="assets/home/process.svg" width="31%" alt="02 工艺智能"></a>
+  <a href="learn/operations.md"><img src="assets/home/operations.svg" width="31%" alt="03 设备运维"></a>
+</p>
 
-### 01 设备设计
+<details>
+<summary>查看 9 个专题</summary>
 
-- [D1 腔室仿真](learn/design.md#d1-腔室仿真) · 读懂结构、流场和晶圆均匀性之间的关系。
-- [D2 设备数字孪生](learn/design.md#d2-设备数字孪生) · 看设备观测怎样校准模型，并判断它还能用于哪些工况。
-- [D3 代理模型与设计优化](learn/design.md#d3-代理模型与设计优化) · 在昂贵的仿真预算下搜索并复核设计方案。
+- **设备设计** · [腔室仿真](learn/design.md#d1-腔室仿真) · [设备数字孪生](learn/design.md#d2-设备数字孪生) · [代理模型与设计优化](learn/design.md#d3-代理模型与设计优化)
+- **工艺智能** · [配方与设备轨迹](learn/process.md#p1-配方与设备轨迹) · [虚拟量测](learn/process.md#p2-虚拟量测) · [工艺监控与批间控制](learn/process.md#p3-工艺监控与批间控制)
+- **设备运维** · [设备数据与状态](learn/operations.md#o1-设备数据与状态) · [故障检测与诊断](learn/operations.md#o2-故障检测与诊断) · [寿命预测与维护决策](learn/operations.md#o3-寿命预测与维护决策)
 
-[设备设计资源目录](catalog/design.md)
+</details>
 
-### 02 工艺智能
+## 研究资源
 
-- [P1 配方与设备轨迹](learn/process.md#p1-配方与设备轨迹) · 对齐步骤、传感器时序和晶圆量测。
-- [P2 虚拟量测](learn/process.md#p2-虚拟量测) · 定义预测时点、目标和跨批验证方式。
-- [P3 工艺监控与批间控制](learn/process.md#p3-工艺监控与批间控制) · 判断何时报警、加测或调整下一次加工。
+[论文导读](catalog/papers.md) · [数据集总览](catalog/datasets.md) · [代码索引](catalog/code.md) · [术语速查](catalog/glossary.md)
 
-[工艺智能资源目录](catalog/process.md)
-
-### 03 设备运维
-
-- [O1 设备数据与状态](learn/operations.md#o1-设备数据与状态) · 关联设备状态、告警、步骤和维修记录。
-- [O2 故障检测与诊断](learn/operations.md#o2-故障检测与诊断) · 从异常信号提出可以核查的故障假设。
-- [O3 寿命预测与维护决策](learn/operations.md#o3-寿命预测与维护决策) · 从故障时点、预警提前量和代价评估维护策略。
-
-[设备运维资源目录](catalog/operations.md)
-
-## 做研究时怎么查
-
-- **找一条研究路线。** [论文导读](catalog/papers.md)按问题串起代表性研究、对照和可用证据。
-- **找一份适合的基准。** [数据集总览](catalog/datasets.md)列出信号、标签、来源和许可，可区分实测、故障注入和仿真。
-- **找能读的实现。** [代码索引](catalog/code.md)把求解器、协议库和研究实现按任务分开，并标记需要另取的数据或环境。
-
-专题正文、资料目录与代码索引都聚焦半导体设备。第三方材料由上游提供，许可按对应条目核对。仓库内的可运行案例将随验证逐步补充。[收录与贡献规则](CONTRIBUTING.md)
+[收录与贡献](CONTRIBUTING.md)
