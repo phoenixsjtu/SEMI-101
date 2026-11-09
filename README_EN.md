@@ -1,54 +1,40 @@
 <p align="right"><a href="README.md">中文</a></p>
 
-<p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/home/cover-white.jpg">
-    <img src="assets/home/cover.png" width="640" alt="SEMI 101, a hand sketch of a semiconductor process chamber">
-  </picture>
-</p>
+# SEMI 101
 
-# Semiconductor Equipment Intelligence
+**A handbook on semiconductor equipment.** Start with deposition and etching, then learn to connect recipes, equipment records, and wafer measurements. The handbook chapters are in Chinese.
 
-How does a film grow on a wafer? How does etching remove selected material? Start with the physical processes, learn how equipment is modeled and controlled, then see how these methods are used in production. The handbook chapters are in Chinese.
-
-[Reading guide](learn/README.md) · [Glossary](catalog/glossary.md) · [Research resources](#research-resources)
+**[Start with wafers and process equipment](learn/foundations.md#f1-晶圆与设备工艺)** · [Browse datasets](catalog/datasets.md) · [Find papers and code](#research-resources)
 
 <div><a name="learning-map"></a></div>
 
-## 01 Semiconductor foundations
+## Chapters
 
-Follow the wafer through deposition and etching. Learn where vacuum, gas transport, surface reactions, and plasma enter the process.
+- <a name="01-semiconductor-foundations"></a>**[Process fundamentals](learn/foundations.md)** — How thin films grow and how plasmas remove material.
+- <a name="02-technical-methods"></a>**[Simulation, data, and control](learn/methods.md)** — Model a chamber, read sensor records by process step, and check predictions against measurements.
+- <a name="03-engineering-applications"></a>**[Process development and production](learn/applications.md)** — Tune recipes, estimate wafer measurements, or investigate excursions.
 
-[Wafers and equipment](learn/foundations.md#f1-晶圆与设备工艺) · [Thin-film deposition](learn/foundations.md#f2-薄膜沉积) · [Etching](learn/foundations.md#f3-刻蚀) · [Physical and chemical processes](learn/foundations.md#f4-物理化学过程) · [Key terms](learn/foundations.md#f5-关键术语)
+## One wafer, 89 measurement sites
 
-## 02 Technical methods
+On this wafer, the largest step heights are near the edge. The experiment date and wafer number link the map to pressure, power, and optical spectra recorded during the BOSCH etch.
 
-Study how equipment behavior is represented, measured, and controlled. Connect physical models to sensor traces and wafer measurements.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/home/bosch-wafer-dark.svg">
+  <img src="assets/home/bosch-wafer-light.svg" width="460" alt="89 measured step heights on wafer 2024-07-02_01, ranging from about 41 to 53 micrometers.">
+</picture>
 
-[Multiphysics simulation](learn/methods.md#t1-多物理场仿真) · [Equipment data and metrology](learn/methods.md#t2-设备数据与量测) · [Modeling and validation](learn/methods.md#t3-建模与验证) · [Process control](learn/methods.md#t4-过程控制)
+<sub>Wafer 2024-07-02_01, plotted at the measured sites. Data from Sayyed et al., <a href="https://zenodo.org/records/17122442">BOSCH dataset</a> (CC BY 4.0).</sub>
 
-## 03 Engineering applications
+[Try the first data exercise](learn/README.md#第一个读数据练习) · [See the fields and join keys](catalog/datasets/etch.md#e01-bosch-深硅刻蚀)
 
-Choose a topic by the decision at hand, from evaluating a design or recipe to diagnosing a production excursion.
+<div><a name="research-resources"></a><a name="04-semiconductor-equipment-datasets"></a></div>
 
-[Simulation acceleration](learn/applications.md#a1-仿真加速) · [Virtual metrology](learn/applications.md#a2-虚拟量测) · [Recipe optimization](learn/applications.md#a3-工艺配方优化)
+## Resource index
 
-[Statistical process control](learn/applications.md#a4-统计过程控制) · [Fault detection and classification](learn/applications.md#a5-故障检测与分类) · [Root cause analysis](learn/applications.md#a6-根因分析) · [Predictive maintenance](learn/applications.md#a7-预测维护)
+[Dataset coverage matrix](catalog/datasets/matrix.md) · [Paper guide](catalog/papers.md) · [Code index](catalog/code.md)
 
-## 04 Semiconductor equipment datasets
-
-Find recipe settings, equipment traces, wafer measurements, and simulation outputs. Browse by process or task and check what each release lets you join. The chapter is in Chinese.
-
-[Coverage heatmap](catalog/datasets.md) · [Coverage matrix](catalog/datasets/matrix.md) · [Filterable inventory](catalog/datasets/inventory.csv)
-
-<div><a name="research-resources"></a></div>
-
-## Research resources
-
-[Paper guide](catalog/papers.md) · [Code index](catalog/code.md)
-
-Browse the full catalogs by topic. [Equipment design](catalog/design.md) · [Process intelligence](catalog/process.md) · [Equipment operations](catalog/operations.md)
+Browse [equipment design](catalog/design.md) · [process intelligence](catalog/process.md) · [equipment operations](catalog/operations.md)
 
 <div><a name="offline"></a></div>
 
-[Download the repository ZIP](https://github.com/phoenixsjtu/SEMI-101/archive/refs/heads/main.zip) · [Contributing](CONTRIBUTING.md)
+[Reading guide](learn/README.md) · [Glossary](catalog/glossary.md) · [Contributing](CONTRIBUTING.md) · [Download ZIP](https://github.com/phoenixsjtu/SEMI-101/archive/refs/heads/main.zip)

@@ -1,59 +1,40 @@
 <p align="right"><a href="README_EN.md">English</a></p>
 
-<p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/home/cover-white.jpg">
-    <img src="assets/home/cover.png" width="640" alt="SEMI 101，半导体工艺腔室的手绘速写">
-  </picture>
-</p>
+# SEMI 101
 
-# 半导体设备智能化
+**半导体设备手册。** 从薄膜沉积和刻蚀入门，学会用配方、机台记录和晶圆量测读懂一次加工。
 
-薄膜怎样长在晶圆上？刻蚀怎样只移除指定的材料？从这些工艺问题读起，再学习怎样给设备建模、采集数据和控制过程，最后看这些方法怎样用于生产。
-
-[阅读指南](learn/README.md) · [术语速查](catalog/glossary.md) · [研究资料](#research-resources)
+**[从晶圆与设备工艺开始](learn/foundations.md#f1-晶圆与设备工艺)** · [查数据集](catalog/datasets.md) · [找论文与代码](#research-resources)
 
 <div><a name="learning-map"></a><a name="学习地图"></a></div>
 
-## 01 半导体知识导读
+## 手册目录
 
-先理解设备在晶圆上做什么。对照沉积与刻蚀，认识真空、气体输运、表面反应和等离子体在工艺里的作用。
+- <a name="01-半导体知识导读"></a>**[工艺原理](learn/foundations.md)**　薄膜怎样长起来，等离子体怎样刻蚀材料。
+- <a name="02-技术方法"></a>**[仿真、数据与控制](learn/methods.md)**　给腔室建模，按工步读传感器记录，再用量测检验预测。
+- <a name="03-工程应用"></a>**[工艺开发与量产](learn/applications.md)**　优化配方、做虚拟量测，或排查生产中的异常。
 
-[晶圆与设备工艺](learn/foundations.md#f1-晶圆与设备工艺) · [薄膜沉积](learn/foundations.md#f2-薄膜沉积) · [刻蚀](learn/foundations.md#f3-刻蚀) · [物理化学过程](learn/foundations.md#f4-物理化学过程) · [关键术语](learn/foundations.md#f5-关键术语)
+## 一片晶圆的 89 个量测点
 
-## 02 技术方法
-
-学会描述一台设备怎样运行。仿真解释结构与工况，设备轨迹和量测提供证据，模型与控制把证据用于预测或调整。
-
-[多物理场仿真](learn/methods.md#t1-多物理场仿真) · [设备数据与量测](learn/methods.md#t2-设备数据与量测) · [建模与验证](learn/methods.md#t3-建模与验证) · [过程控制](learn/methods.md#t4-过程控制)
-
-## 03 工程应用
-
-从要做的决定选读。开发阶段要评估设计、配方和量测方案。量产阶段要识别过程漂移、判断设备故障，并追查异常原因。
-
-[仿真加速](learn/applications.md#a1-仿真加速) · [虚拟量测](learn/applications.md#a2-虚拟量测) · [工艺配方优化](learn/applications.md#a3-工艺配方优化)
-
-[SPC 统计过程控制](learn/applications.md#a4-统计过程控制) · [FDC 故障检测与分类](learn/applications.md#a5-故障检测与分类) · [RCA 根因分析](learn/applications.md#a6-根因分析) · [预测维护](learn/applications.md#a7-预测维护)
-
-## 04 半导体设备数据集
-
-从覆盖矩阵查哪些设备有配方数值、原始时序、实测和仿真结果。进入工序专题后，可以直接核对数据文件、字段、关联键和配套代码。
+这片晶圆的最高台阶高度出现在边缘附近。用实验日期和晶圆号，可以把这张出片量测图接到 BOSCH 刻蚀时记录的压力、功率和光谱。
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/datasets/coverage-dark.svg">
-  <img src="assets/datasets/coverage-light.svg" width="800" alt="半导体设备数据覆盖热图。文字矩阵见下方链接。">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/home/bosch-wafer-dark.svg">
+  <img src="assets/home/bosch-wafer-light.svg" width="460" alt="晶圆 2024-07-02_01 的 89 个台阶高度量测点，约 41 至 53 微米。">
 </picture>
 
-[进入数据集专题](catalog/datasets.md) · [可点击矩阵](catalog/datasets/matrix.md) · [可筛选总表](catalog/datasets/inventory.csv)
+<sub>晶圆 2024-07-02_01，按原始点位绘制。数据来自 Sayyed 等人，<a href="https://zenodo.org/records/17122442">BOSCH 数据集</a>（CC BY 4.0）。</sub>
 
-<div><a name="research-resources"></a></div>
+[做第一个数据练习](learn/README.md#第一个读数据练习) · [看字段和关联方法](catalog/datasets/etch.md#e01-bosch-深硅刻蚀)
 
-## 研究资料
+<div><a name="research-resources"></a><a name="研究资料"></a><a name="04-半导体设备数据集"></a></div>
 
-[论文导读](catalog/papers.md) · [代码索引](catalog/code.md)
+## 资料索引
 
-也可以按设备环节查询完整资料。[设备设计](catalog/design.md) · [工艺智能](catalog/process.md) · [设备运维](catalog/operations.md)
+[数据覆盖矩阵](catalog/datasets/matrix.md) · [论文导读](catalog/papers.md) · [代码索引](catalog/code.md)
+
+按设备环节浏览 [设备设计](catalog/design.md) · [工艺智能](catalog/process.md) · [设备运维](catalog/operations.md)
 
 <div><a name="offline"></a></div>
 
-[下载仓库 ZIP](https://github.com/phoenixsjtu/SEMI-101/archive/refs/heads/main.zip) · [收录与贡献](CONTRIBUTING.md)
+[阅读指南](learn/README.md) · [术语速查](catalog/glossary.md) · [收录与贡献](CONTRIBUTING.md) · [下载 ZIP](https://github.com/phoenixsjtu/SEMI-101/archive/refs/heads/main.zip)
