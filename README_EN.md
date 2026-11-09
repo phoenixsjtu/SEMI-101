@@ -35,11 +35,17 @@ Choose a topic by the decision at hand, from evaluating a design or recipe to di
 
 [Statistical process control](learn/applications.md#a4-统计过程控制) · [Fault detection and classification](learn/applications.md#a5-故障检测与分类) · [Root cause analysis](learn/applications.md#a6-根因分析) · [Predictive maintenance](learn/applications.md#a7-预测维护)
 
+## 04 Semiconductor equipment datasets
+
+Find recipe settings, equipment traces, wafer measurements, and simulation outputs. Browse by process or task and check what each release lets you join. The chapter is in Chinese.
+
+[Dataset chapter](catalog/datasets.md) · [Filterable inventory](catalog/datasets/inventory.csv)
+
 <div><a name="research-resources"></a></div>
 
 ## Research resources
 
-[Paper guide](catalog/papers.md) · [Dataset catalog](catalog/datasets.md) · [Code index](catalog/code.md)
+[Paper guide](catalog/papers.md) · [Code index](catalog/code.md)
 
 Browse the full catalogs by topic. [Equipment design](catalog/design.md) · [Process intelligence](catalog/process.md) · [Equipment operations](catalog/operations.md)
 

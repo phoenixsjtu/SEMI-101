@@ -11,6 +11,8 @@
 | 把反应机理整理成模拟器能读的模型 | [ViennaChem](https://github.com/ViennaTools/ViennaChem) | 与 ViennaPS 配合时核对反应式和速率参数 | GPL-3.0 或更新版本，详见上游许可 |
 | 在虚拟沉积环境试验优化策略 | [aldenv](https://github.com/aldsim/aldenv) | 从仿真设备接口入手，核对环境状态、动作和观测 | BSD-3-Clause |
 | 用仿真膜厚剖面研究 PEALD 饱和剂量 | [Plasma ALD Dataset 与脚本](https://github.com/aldsim/plasmaml) | 先看数据定义与已有切分 | 开放许可未确认 |
+| 从模拟剖面与剂量预测 ALD 饱和时间 | [ALD Saturation](https://github.com/aldsim/saturationdataset) | 读取发布的 NumPy 文件，比较不同网络深度的作者训练脚本 | MIT |
+| 用掩模预测光刻成像，或从目标图案反推掩模 | [LithoBench](https://github.com/shelljane/lithobench) · [LithoSim](https://dw-hongquan.github.io/LithoSim/) | 分别核对版图子集、参考求解器和评估指标。两套数据的许可各自核对 | LithoBench MIT，LithoSim Apache-2.0 |
 
 [对应学习专题](../learn/design.md) · [设备设计完整资源](design.md)
 
@@ -21,6 +23,7 @@
 | 从完整刻蚀轨迹预测刻蚀深度 | [BOSCH Etch Virtual Metrology](https://github.com/cpngfan-ui/bosch-etch-virtual-metrology) | 另取 BOSCH 数据，核对周期特征和按批次留出的验证 | MIT |
 | 预测片内台阶高度并筛选需要量测的晶圆 | [ETCH-GATE](https://github.com/JUYONG-1010/ETCH-GATE) | 另取 BOSCH 数据，核对空间量测定义与筛选预算 | MIT |
 | 预测 ICP 刻蚀设备的等离子体光学响应 | [Generative Modelling for Optical Plasma Diagnostics](https://github.com/gregdaly/generative_modelling_for_optical_plasma_diagnostics) | 对照 PP100 配套数据和作者的光谱、图像模型 | MIT |
+| 用归一化工艺参数预测光电晶体管增益 | [FBK Phototransistor Virtual Metrology](https://github.com/mahshid-amirabgir/phototransistor-virtual-metrology) | 按工艺运行切分，区分正向增益估计和反向配方搜索 | MIT |
 
 [对应学习专题](../learn/process.md) · [工艺智能完整资源](process.md) · [配套数据入口](datasets.md#工艺轨迹光谱和量测)
 

@@ -1,36 +1,39 @@
-# 数据集总览
+# 04 半导体设备数据集
 
-按数据怎么来的、包含什么信号以及能回答什么问题来选。对同一任务，单传感器基准可以快速检验算法，带配方、腔室和量测的实测数据更适合检验工艺解释。数据按发布方版本和条款获取。
+从一台机台实际执行的配方，到工步内的传感器轨迹、出片量测和失效事件。本章按工艺和数据粒度组织公开资源，也单独索引物理仿真与厂级仿真。每节说明文件里有什么、怎样关联、适合验证什么。
 
-- **练时序分类。** 从 UCR Wafer 开始。它按单个传感器提供正常与异常晶圆轨迹，适合快速搭建基线。[故障与健康管理](#故障与健康管理)
-- **研究工艺与量测。** 从 BOSCH 数据开始，先对齐工艺轨迹、光谱和晶圆空间量测，再确定预测时点。[工艺轨迹、光谱和量测](#工艺轨迹光谱和量测)
-- **研究仿真或代理模型。** 从带反应文件、形貌输出和脚本的 TU Wien 数据开始，先检查输入和输出的尺度。[仿真与设计](#仿真与设计)
+[可筛选总表 CSV](datasets/inventory.csv) · [检索记录与收录规则](datasets/coverage.md) · [开源代码索引](code.md)
 
-## 仿真与设计
+## 章节目录
 
-| 数据 | 设备与数据形态 | 可验证的任务 | 获取与许可 |
-| --- | --- | --- | --- |
-| [Surface Chemistry as Data](https://researchdata.tuwien.ac.at/records/azegw-xq879) | 刻蚀、ALD、MOCVD 等场景的化学模型、形貌仿真输出和脚本 | 特征尺度表面反应与形貌预测 | 数据 CC BY 4.0，脚本许可见发布记录 |
-| [Argonne Plasma ALD Dataset](https://github.com/aldsim/plasmaml) | PEALD 高深宽比结构的仿真膜厚剖面 | 估计达到饱和所需的相对剂量时间 | 仓库提供数据和脚本，开放许可未确认 |
+| 章节 | 适合找什么 |
+| --- | --- |
+| **[D1 刻蚀与等离子体](datasets/etch.md)** | 工艺设定、设备轨迹、OES、晶圆深度、刻蚀速率和离子注入机调束 |
+| **[D2 沉积、外延与 CMP](datasets/deposition-cmp.md)** | PVD 膜厚、ALD 与外延实验、溅射性能、CMP 去除率 |
+| **[D3 量测、检测与晶圆图](datasets/metrology.md)** | 椭偏与 XRR、SEM 图像和分割掩膜、光致发光、晶圆缺陷图 |
+| **[D4 设备状态与运维](datasets/health.md)** | 多变量设备轨迹、故障注入、告警、失效与维护事件 |
+| **[D5 工艺物理仿真](datasets/simulation.md)** | 刻蚀形貌、沉积剖面、光刻掩模与印制轮廓、电磁场 |
+| **[D6 晶圆厂仿真与调度](datasets/fab.md)** | 路由、工具组、搬运系统、批次派工与离散事件基准 |
 
 ## 工艺轨迹、光谱和量测
 
-| 数据 | 设备与数据形态 | 可验证的任务 | 获取与许可 |
-| --- | --- | --- | --- |
-| [BOSCH Plasma Etching](https://zenodo.org/records/17122442) | 深硅刻蚀设备实测 OES、工艺轨迹和晶圆空间量测 | 刻蚀深度预测、片内均匀性、过程阶段分析 | 可下载，CC BY 4.0 |
-| [PP100 ICP 光学诊断数据](https://zenodo.org/records/7704879) | ICP 刻蚀设备实测工艺设定、光谱和图像 | 估计不同配方下的等离子体光学响应 | 可下载，CC BY 4.0 |
-| [PHM 2016 CMP](https://phmsociety.org/wp-content/uploads/2016/05/PHM16DataChallengeCFP.pdf) | CMP 挑战赛，按晶圆和加工阶段关联设备轨迹与平均材料去除率 | 材料去除率预测、按晶圆验证 | 公告指向外部下载页，数据再分发许可未确认 |
-| [PVD AlCu / WTi](https://zenodo.org/records/16881338) | PVD 设备测试的工艺信号汇总与薄膜量测 | 膜厚预测，评估设备与批次差异 | v1 覆盖 AlCu 和 WTi，[v2](https://zenodo.org/records/23442538)更新 AlCu 并提供更多标识，两版均为 CC BY 4.0 |
-| [NIST ALD Hafnia on Silicon](https://catalog.data.gov/dataset/nanometer-scale-planar-reference-materials-project-data-year-2025-set-00-10nm-hafnia-on-si) | ALD HfO₂ 参考样品的椭偏与 X 射线反射量测 | 比较薄膜量测方法、点位和不确定度 | 可下载，依 [NIST 开放条款](https://www.nist.gov/open/license) |
-| [Semiconductor Frontend Equipment Sensor Data](https://zenodo.org/records/4322353) | 两台匿名前道设备的多变量轨迹与晶圆测试结果 | 按晶圆及批次关联设备记录，探索质量预测和跨工序异常 | 可下载，CC BY 4.0 |
-| [UCI SECOM](https://archive.ics.uci.edu/dataset/179/secom) | 1,567 条匿名生产实体记录、591 个工艺测量特征和通过／失败标签 | 缺失值处理、特征选择、类不平衡分类 | 可下载，CC BY 4.0 |
+**想复现虚拟量测**，先看 [BOSCH 深硅刻蚀](datasets/etch.md#e01-bosch-深硅刻蚀)、[Infineon PVD](datasets/deposition-cmp.md#p01-infineon-pvd) 和 [PHM 2016 CMP](datasets/deposition-cmp.md#p02-phm-2016-cmp)。三套数据分别提供晶圆空间量测、膜厚向量和晶圆平均材料去除率。
+
+**想研究配方优化**，可对比 [Oxford PP100](datasets/etch.md#e02-oxford-pp100-icp) 中受控工况与光学响应的关系，以及 [ALD 饱和时间](datasets/simulation.md#ald-与刻蚀) 中工艺输入与仿真输出的关系。选数据前先确定优化的目标是光学信号、晶圆性能，还是仿真量。
 
 ## 故障与健康管理
 
-| 数据 | 设备与数据形态 | 可验证的任务 | 获取与许可 |
-| --- | --- | --- | --- |
-| [Eigenvector Metal Etch](https://eigenvector.com/resources/data-sets/) | LAM 9600 金属刻蚀机的实测工程变量，含故障注入 | 多变量异常检测、跨实验批次验证 | 发布方提供 MATLAB 文件，许可未确认 |
-| [UCR Wafer](https://zenodo.org/records/11198387) | 每条序列对应一片晶圆的一路设备传感信号，带正常／异常标签 | 单变量时序分类、类不平衡基线 | UCR 归档版本可下载，CC BY 4.0 |
-| [PHM 2018 Ion Mill](https://phmsociety.org/conference/annual-conference-of-the-phm-society/annual-conference-of-the-prognostics-and-health-management-society-2018-b/phm-data-challenge-6/) | 离子束刻蚀设备冷却子系统的运行信号、配方与故障时间 | 三类故障的失效时间或 RUL 估计 | 官方页提供外部下载入口，数据许可未确认 |
+**想复现 FDC 或 RUL**，从 [设备状态与运维](datasets/health.md) 选择与目标一致的标签。晶圆级异常、已知注入故障和距维护停机的时间分别对应三种评估问题。
 
-选定数据后，可以回到[设备设计](design.md)、[工艺智能](process.md)或[设备运维](operations.md)找对应论文和代码。
+## 仿真与设计
+
+**想训练仿真代理模型**，在[工艺物理仿真](datasets/simulation.md)按目标量选择数据，例如刻蚀轮廓、膜厚剖面和光刻成像。调度和搬运属于[晶圆厂仿真](datasets/fab.md)，其样本由工厂流程与事件模型产生。
+
+## 怎样判断一套数据够不够用
+
+1. **先找样本单位。** 同一片晶圆可以有几百条时序采样、几十个量测点和多幅图像。训练、验证和测试先按晶圆分开，再根据问题尝试按批次、机台或时间隔离。
+2. **区分配方、轨迹和量测。** 设定压力、实测压力、整片压力均值是三列不同的证据。配方编号可以用来分组，预测可调参数的效果还需要公开设定值。
+3. **验证关联键和预测时点。** 工艺前优化配方和工艺后预测膜厚能使用的信息不同。先确认数据表能通过什么字段拼接，再检查这些字段在预测时是否已经可见。
+4. **分别查获取方式和许可。** 文件能下载、能商用和能再分发是不同状态。目录按上游许可记录，代码、数据和模型分别核对。
+
+[回到首页](../README.md) · [设备数据与量测教程](../learn/methods.md#t2-设备数据与量测) · [提交数据线索](../CONTRIBUTING.md)

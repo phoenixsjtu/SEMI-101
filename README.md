@@ -35,11 +35,17 @@
 
 [SPC 统计过程控制](learn/applications.md#a4-统计过程控制) · [FDC 故障检测与分类](learn/applications.md#a5-故障检测与分类) · [RCA 根因分析](learn/applications.md#a6-根因分析) · [预测维护](learn/applications.md#a7-预测维护)
 
+## 04 半导体设备数据集
+
+查机台配方、运行轨迹、晶圆量测和仿真结果。按工艺、量测、运维、仿真与调度选读，再核对样本单位、关联键和许可。
+
+[数据集章节](catalog/datasets.md) · [可筛选总表](catalog/datasets/inventory.csv)
+
 <div><a name="research-resources"></a></div>
 
 ## 研究资料
 
-[论文导读](catalog/papers.md) · [数据集总览](catalog/datasets.md) · [代码索引](catalog/code.md)
+[论文导读](catalog/papers.md) · [代码索引](catalog/code.md)
 
 也可以按设备环节查询完整资料。[设备设计](catalog/design.md) · [工艺智能](catalog/process.md) · [设备运维](catalog/operations.md)
 
