@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="109" height="24" viewBox="0 0 109 24">
-  <rect x=".5" y=".5" width="108" height="23" rx="5" fill="#e9f1f6" stroke="#b9cbd8"/>
-  <path d="M80 1h24a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4h-24Z" fill="#315873"/>
-  <text x="40" y="16" text-anchor="middle" fill="#284c68" font-family="monospace" font-size="10" font-weight="700" letter-spacing=".5">DATASETS</text>
-  <text x="94" y="16" text-anchor="middle" fill="#fff" font-family="system-ui, sans-serif" font-size="12" font-weight="700">12</text>
-</svg>
