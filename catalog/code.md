@@ -38,4 +38,14 @@
 
 [对应学习专题](../learn/operations.md) · [设备运维完整资源](operations.md) · [配套数据入口](datasets.md#故障与健康管理)
 
+## 清洗、涂显、注入与封装案例
+
+| 任务 | 实现与对应数据 | 代码许可 |
+| --- | --- | --- |
+| 读取清洗后 XPS 的 VAMAS 原始文件 | [vamas 读取器](https://github.com/matkrin/vamas) · [清洗专题和已读样本](datasets/cleaning.md) | BSD-3-Clause |
+| 机器人显影与膜厚分析 | [Stanford ROS 2／MoveIt 与分析脚本](https://github.com/alps-ml/paper.robotic-resist-development) · [C01 芯片数据](datasets/coat-develop.md#c01-stanford-机器人显影) | MIT |
+| 从曝光场计算胶层与显影 | [TorchResist](https://github.com/ShiningSord/TorchResist) · [涂显仿真入口](datasets/coat-develop.md#显影建模与量测参照) | Apache-2.0 |
+| 建模离子输运与深度剖面 | [Crystal-TRIM 源码与案例](https://doi.org/10.14278/rodare.5102) · [RustBCA](https://github.com/lcpp-org/RustBCA) · [注入专题](datasets/implantation.md) | Crystal-TRIM EUPL-1.2；RustBCA GPL-3.0 |
+| 模拟封装 X 射线投影与重建 | [NIST xsim-chip](https://github.com/usnistgov/xsim-chip) · [K01 实测与仿真](datasets/packaging.md#k01-nist-先进封装-xct) | [NIST 软件许可](https://github.com/usnistgov/xsim-chip/blob/main/LICENSE.md) |
+
 [学习导航](../README.md)

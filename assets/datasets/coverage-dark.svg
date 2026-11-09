@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="599" viewBox="0 0 920 599" role="img" aria-labelledby="title description">
+<title id="title">SEMI 101 半导体设备数据覆盖</title>
+<desc id="description">按工序显示配方数值、原始时序、实测结果、仿真结果和同片关联的资源数量。前四行是本轮重点。</desc>
+<rect x="0" y="0" width="920" height="599" rx="0" fill="#101820"/>
+<g font-family="Inter, -apple-system, BlinkMacSystemFont, PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">
+<text x="32" y="37" fill="#8BB6CE" font-size="13" font-weight="700" text-anchor="start" letter-spacing="2">SEMI 101   /   DATA ATLAS</text>
+<text x="32" y="80" fill="#E3EDF4" font-size="31" font-weight="700" text-anchor="start" letter-spacing="0">半导体设备数据覆盖</text>
+<text x="33" y="107" fill="#A5BAC9" font-size="14" font-weight="400" text-anchor="start" letter-spacing="0">按工序统计可定位到文件的证据</text>
+<text x="886" y="77" fill="#E3EDF4" font-size="41" font-weight="650" text-anchor="end" letter-spacing="0">60</text>
+<text x="886" y="105" fill="#A5BAC9" font-size="14" font-weight="450" text-anchor="end" letter-spacing="0">已收录资源</text>
+<rect x="32" y="128" width="856" height="1" rx="0" fill="#30424F"/>
+<text x="48" y="155" fill="#A5BAC9" font-size="14" font-weight="550" text-anchor="start" letter-spacing="0">工序 / 专题</text>
+<text x="305" y="155" fill="#E3EDF4" font-size="15" font-weight="600" text-anchor="middle" letter-spacing="0">配方数值</text>
+<text x="431" y="155" fill="#E3EDF4" font-size="15" font-weight="600" text-anchor="middle" letter-spacing="0">原始时序</text>
+<text x="557" y="155" fill="#E3EDF4" font-size="15" font-weight="600" text-anchor="middle" letter-spacing="0">实测结果</text>
+<text x="683" y="155" fill="#E3EDF4" font-size="15" font-weight="600" text-anchor="middle" letter-spacing="0">仿真结果</text>
+<text x="809" y="155" fill="#E3EDF4" font-size="15" font-weight="600" text-anchor="middle" letter-spacing="0">同片关联</text>
+<rect x="32" y="165" width="856" height="144" rx="8" fill="#17242F"/>
+<rect x="32" y="174" width="3" height="126" rx="1.5" fill="#8BB6CE"/>
+<text x="49" y="188" fill="#8BB6CE" font-size="12" font-weight="600" text-anchor="start" letter-spacing="0">01</text>
+<text x="80" y="189" fill="#E3EDF4" font-size="15" font-weight="650" text-anchor="start" letter-spacing="0">清洗与湿法前处理</text>
+<rect x="253" y="170" width="104" height="27" rx="5" fill="#96BED4"/>
+<text x="305" y="189" fill="#102A3B" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">4</text>
+<rect x="379" y="170" width="104" height="27" rx="5" fill="#202D38"/>
+<text x="431" y="189" fill="#A5BAC9" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">—</text>
+<rect x="505" y="170" width="104" height="27" rx="5" fill="#96BED4"/>
+<text x="557" y="189" fill="#102A3B" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">4</text>
+<rect x="631" y="170" width="104" height="27" rx="5" fill="#202D38"/>
+<text x="683" y="189" fill="#A5BAC9" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">—</text>
+<rect x="757" y="170" width="104" height="27" rx="5" fill="#202D38"/>
+<text x="809" y="189" fill="#A5BAC9" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">—</text>
+<text x="49" y="224" fill="#8BB6CE" font-size="12" font-weight="600" text-anchor="start" letter-spacing="0">02</text>
+<text x="80" y="225" fill="#E3EDF4" font-size="15" font-weight="650" text-anchor="start" letter-spacing="0">涂胶、烘烤与显影</text>
+<rect x="253" y="206" width="104" height="27" rx="5" fill="#96BED4"/>
+<text x="305" y="225" fill="#102A3B" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">3</text>
+<rect x="379" y="206" width="104" height="27" rx="5" fill="#202D38"/>
+<text x="431" y="225" fill="#A5BAC9" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">—</text>
+<rect x="505" y="206" width="104" height="27" rx="5" fill="#96BED4"/>
+<text x="557" y="225" fill="#102A3B" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">7</text>
+<rect x="631" y="206" width="104" height="27" rx="5" fill="#96BED4"/>
+<text x="683" y="225" fill="#102A3B" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">3</text>
+<rect x="757" y="206" width="104" height="27" rx="5" fill="#2D4A5E"/>
+<text x="809" y="225" fill="#ECF6FB" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">1</text>
+<text x="49" y="260" fill="#8BB6CE" font-size="12" font-weight="600" text-anchor="start" letter-spacing="0">03</text>
+<text x="80" y="261" fill="#E3EDF4" font-size="15" font-weight="650" text-anchor="start" letter-spacing="0">离子注入与退火</text>
+<rect x="253" y="242" width="104" height="27" rx="5" fill="#96BED4"/>
+<text x="305" y="261" fill="#102A3B" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">5</text>
+<rect x="379" y="242" width="104" height="27" rx="5" fill="#202D38"/>
+<text x="431" y="261" fill="#A5BAC9" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">—</text>
+<rect x="505" y="242" width="104" height="27" rx="5" fill="#96BED4"/>
+<text x="557" y="261" fill="#102A3B" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">5</text>
+<rect x="631" y="242" width="104" height="27" rx="5" fill="#96BED4"/>
+<text x="683" y="261" fill="#102A3B" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">5</text>
+<rect x="757" y="242" width="104" height="27" rx="5" fill="#202D38"/>
+<text x="809" y="261" fill="#A5BAC9" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">—</text>
+<text x="49" y="296" fill="#8BB6CE" font-size="12" font-weight="600" text-anchor="start" letter-spacing="0">04</text>
+<text x="80" y="297" fill="#E3EDF4" font-size="15" font-weight="650" text-anchor="start" letter-spacing="0">封装与互连</text>
+<rect x="253" y="278" width="104" height="27" rx="5" fill="#2D4A5E"/>
+<text x="305" y="297" fill="#ECF6FB" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">1</text>
+<rect x="379" y="278" width="104" height="27" rx="5" fill="#202D38"/>
+<text x="431" y="297" fill="#A5BAC9" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">—</text>
+<rect x="505" y="278" width="104" height="27" rx="5" fill="#96BED4"/>
+<text x="557" y="297" fill="#102A3B" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">5</text>
+<rect x="631" y="278" width="104" height="27" rx="5" fill="#426981"/>
+<text x="683" y="297" fill="#FFFFFF" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">2</text>
+<rect x="757" y="278" width="104" height="27" rx="5" fill="#202D38"/>
+<text x="809" y="297" fill="#A5BAC9" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">—</text>
+<text x="49" y="340" fill="#A5BAC9" font-size="12" font-weight="600" text-anchor="start" letter-spacing="0">05</text>
+<text x="80" y="341" fill="#E3EDF4" font-size="15" font-weight="500" text-anchor="start" letter-spacing="0">刻蚀与等离子体</text>
+<rect x="253" y="322" width="104" height="27" rx="5" fill="#2D4A5E"/>
+<text x="305" y="341" fill="#ECF6FB" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">1</text>
+<rect x="379" y="322" width="104" height="27" rx="5" fill="#2D4A5E"/>
+<text x="431" y="341" fill="#ECF6FB" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">1</text>
+<rect x="505" y="322" width="104" height="27" rx="5" fill="#2D4A5E"/>
+<text x="557" y="341" fill="#ECF6FB" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">1</text>
+<rect x="631" y="322" width="104" height="27" rx="5" fill="#202D38"/>
+<text x="683" y="341" fill="#A5BAC9" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">—</text>
+<rect x="757" y="322" width="104" height="27" rx="5" fill="#2D4A5E"/>
+<text x="809" y="341" fill="#ECF6FB" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">1</text>
+<text x="49" y="376" fill="#A5BAC9" font-size="12" font-weight="600" text-anchor="start" letter-spacing="0">06</text>
+<text x="80" y="377" fill="#E3EDF4" font-size="15" font-weight="500" text-anchor="start" letter-spacing="0">沉积、外延与 CMP</text>
+<rect x="253" y="358" width="104" height="27" rx="5" fill="#96BED4"/>
+<text x="305" y="377" fill="#102A3B" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">3</text>
+<rect x="379" y="358" width="104" height="27" rx="5" fill="#2D4A5E"/>
+<text x="431" y="377" fill="#ECF6FB" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">1</text>
+<rect x="505" y="358" width="104" height="27" rx="5" fill="#96BED4"/>
+<text x="557" y="377" fill="#102A3B" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">5</text>
+<rect x="631" y="358" width="104" height="27" rx="5" fill="#202D38"/>
+<text x="683" y="377" fill="#A5BAC9" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">—</text>
+<rect x="757" y="358" width="104" height="27" rx="5" fill="#96BED4"/>
+<text x="809" y="377" fill="#102A3B" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">3</text>
+<text x="49" y="412" fill="#A5BAC9" font-size="12" font-weight="600" text-anchor="start" letter-spacing="0">07</text>
+<text x="80" y="413" fill="#E3EDF4" font-size="15" font-weight="500" text-anchor="start" letter-spacing="0">量测与缺陷检测</text>
+<rect x="253" y="394" width="104" height="27" rx="5" fill="#202D38"/>
+<text x="305" y="413" fill="#A5BAC9" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">—</text>
+<rect x="379" y="394" width="104" height="27" rx="5" fill="#202D38"/>
+<text x="431" y="413" fill="#A5BAC9" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">—</text>
+<rect x="505" y="394" width="104" height="27" rx="5" fill="#96BED4"/>
+<text x="557" y="413" fill="#102A3B" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">3</text>
+<rect x="631" y="394" width="104" height="27" rx="5" fill="#202D38"/>
+<text x="683" y="413" fill="#A5BAC9" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">—</text>
+<rect x="757" y="394" width="104" height="27" rx="5" fill="#202D38"/>
+<text x="809" y="413" fill="#A5BAC9" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">—</text>
+<text x="49" y="448" fill="#A5BAC9" font-size="12" font-weight="600" text-anchor="start" letter-spacing="0">08</text>
+<text x="80" y="449" fill="#E3EDF4" font-size="15" font-weight="500" text-anchor="start" letter-spacing="0">设备状态与运维</text>
+<rect x="253" y="430" width="104" height="27" rx="5" fill="#202D38"/>
+<text x="305" y="449" fill="#A5BAC9" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">—</text>
+<rect x="379" y="430" width="104" height="27" rx="5" fill="#426981"/>
+<text x="431" y="449" fill="#FFFFFF" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">2</text>
+<rect x="505" y="430" width="104" height="27" rx="5" fill="#2D4A5E"/>
+<text x="557" y="449" fill="#ECF6FB" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">1</text>
+<rect x="631" y="430" width="104" height="27" rx="5" fill="#202D38"/>
+<text x="683" y="449" fill="#A5BAC9" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">—</text>
+<rect x="757" y="430" width="104" height="27" rx="5" fill="#2D4A5E"/>
+<text x="809" y="449" fill="#ECF6FB" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">1</text>
+<text x="49" y="484" fill="#A5BAC9" font-size="12" font-weight="600" text-anchor="start" letter-spacing="0">09</text>
+<text x="80" y="485" fill="#E3EDF4" font-size="15" font-weight="500" text-anchor="start" letter-spacing="0">工艺物理仿真</text>
+<rect x="253" y="466" width="104" height="27" rx="5" fill="#202D38"/>
+<text x="305" y="485" fill="#A5BAC9" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">—</text>
+<rect x="379" y="466" width="104" height="27" rx="5" fill="#202D38"/>
+<text x="431" y="485" fill="#A5BAC9" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">—</text>
+<rect x="505" y="466" width="104" height="27" rx="5" fill="#202D38"/>
+<text x="557" y="485" fill="#A5BAC9" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">—</text>
+<rect x="631" y="466" width="104" height="27" rx="5" fill="#96BED4"/>
+<text x="683" y="485" fill="#102A3B" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">7</text>
+<rect x="757" y="466" width="104" height="27" rx="5" fill="#202D38"/>
+<text x="809" y="485" fill="#A5BAC9" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">—</text>
+<text x="49" y="520" fill="#A5BAC9" font-size="12" font-weight="600" text-anchor="start" letter-spacing="0">10</text>
+<text x="80" y="521" fill="#E3EDF4" font-size="15" font-weight="500" text-anchor="start" letter-spacing="0">晶圆厂仿真与调度</text>
+<rect x="253" y="502" width="104" height="27" rx="5" fill="#202D38"/>
+<text x="305" y="521" fill="#A5BAC9" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">—</text>
+<rect x="379" y="502" width="104" height="27" rx="5" fill="#202D38"/>
+<text x="431" y="521" fill="#A5BAC9" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">—</text>
+<rect x="505" y="502" width="104" height="27" rx="5" fill="#202D38"/>
+<text x="557" y="521" fill="#A5BAC9" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">—</text>
+<rect x="631" y="502" width="104" height="27" rx="5" fill="#202D38"/>
+<text x="683" y="521" fill="#A5BAC9" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">—</text>
+<rect x="757" y="502" width="104" height="27" rx="5" fill="#202D38"/>
+<text x="809" y="521" fill="#A5BAC9" font-size="16" font-weight="650" text-anchor="middle" letter-spacing="0">—</text>
+<rect x="32" y="545" width="856" height="1" rx="0" fill="#30424F"/>
+<rect x="32" y="565" width="3" height="15" rx="1.5" fill="#8BB6CE"/>
+<text x="43" y="577" fill="#A5BAC9" font-size="13" font-weight="550" text-anchor="start" letter-spacing="0">本轮重点</text>
+<text x="166" y="577" fill="#A5BAC9" font-size="13" font-weight="400" text-anchor="start" letter-spacing="0">—  暂无符合口径的文件</text>
+<rect x="729" y="561" width="35" height="23" rx="4" fill="#202D38"/>
+<text x="746.5" y="577" fill="#A5BAC9" font-size="12" font-weight="650" text-anchor="middle" letter-spacing="0">0</text>
+<rect x="769" y="561" width="35" height="23" rx="4" fill="#2D4A5E"/>
+<text x="786.5" y="577" fill="#ECF6FB" font-size="12" font-weight="650" text-anchor="middle" letter-spacing="0">1</text>
+<rect x="809" y="561" width="35" height="23" rx="4" fill="#426981"/>
+<text x="826.5" y="577" fill="#FFFFFF" font-size="12" font-weight="650" text-anchor="middle" letter-spacing="0">2</text>
+<rect x="849" y="561" width="35" height="23" rx="4" fill="#96BED4"/>
+<text x="866.5" y="577" fill="#102A3B" font-size="12" font-weight="650" text-anchor="middle" letter-spacing="0">3+</text>
+</g>
+</svg>

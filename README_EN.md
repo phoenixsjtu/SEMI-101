@@ -39,7 +39,7 @@ Choose a topic by the decision at hand, from evaluating a design or recipe to di
 
 Find recipe settings, equipment traces, wafer measurements, and simulation outputs. Browse by process or task and check what each release lets you join. The chapter is in Chinese.
 
-[Dataset chapter](catalog/datasets.md) · [Filterable inventory](catalog/datasets/inventory.csv)
+[Coverage heatmap](catalog/datasets.md) · [Coverage matrix](catalog/datasets/matrix.md) · [Filterable inventory](catalog/datasets/inventory.csv)
 
 <div><a name="research-resources"></a></div>
 

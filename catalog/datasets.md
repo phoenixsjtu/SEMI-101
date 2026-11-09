@@ -1,19 +1,28 @@
 # 04 半导体设备数据集
 
-从一台机台实际执行的配方，到工步内的传感器轨迹、出片量测和失效事件。本章按工艺和数据粒度组织公开资源，也单独索引物理仿真与厂级仿真。每节说明文件里有什么、怎样关联、适合验证什么。
+从配方设定到机台运行、晶圆量测与仿真输出。先用覆盖矩阵选择工序，再进专题查看下载文件、字段字典和关联粒度。
 
-[可筛选总表 CSV](datasets/inventory.csv) · [检索记录与收录规则](datasets/coverage.md) · [开源代码索引](code.md)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/datasets/coverage-dark.svg">
+  <img src="../assets/datasets/coverage-light.svg" width="920" alt="半导体设备数据覆盖热图。数字表示各工序可定位的配方、时序、实测、仿真及同片关联资源数。下方提供完整文字矩阵。">
+</picture>
 
-## 章节目录
+[查看可点击矩阵与计数口径](datasets/matrix.md) · [下载总表 CSV](datasets/inventory.csv) · [检索记录](datasets/coverage.md)
 
-| 章节 | 适合找什么 |
+## 按工序找数据
+
+| 专题 | 重点数据与字段 |
 | --- | --- |
-| **[D1 刻蚀与等离子体](datasets/etch.md)** | 工艺设定、设备轨迹、OES、晶圆深度、刻蚀速率和离子注入机调束 |
-| **[D2 沉积、外延与 CMP](datasets/deposition-cmp.md)** | PVD 膜厚、ALD 与外延实验、溅射性能、CMP 去除率 |
-| **[D3 量测、检测与晶圆图](datasets/metrology.md)** | 椭偏与 XRR、SEM 图像和分割掩膜、光致发光、晶圆缺陷图 |
-| **[D4 设备状态与运维](datasets/health.md)** | 多变量设备轨迹、故障注入、告警、失效与维护事件 |
-| **[D5 工艺物理仿真](datasets/simulation.md)** | 刻蚀形貌、沉积剖面、光刻掩模与印制轮廓、电磁场 |
-| **[D6 晶圆厂仿真与调度](datasets/fab.md)** | 路由、工具组、搬运系统、批次派工与离散事件基准 |
+| **[清洗与湿法前处理](datasets/cleaning.md)** | 浴液及处理条件、去除效果、表面成像、超声空化诊断 |
+| **[涂胶、烘烤与显影](datasets/coat-develop.md)** | 旋涂设定、膜厚与图形量测、显影实验、光刻胶模型 |
+| **[离子注入与退火](datasets/implantation.md)** | 调束成败、注入能量与剂量、SIMS 深度剖面、离子输运仿真 |
+| **[封装与互连](datasets/packaging.md)** | 键合、互连检测、热可靠性和封装仿真 |
+| [刻蚀与等离子体](datasets/etch.md) | 工艺设定、设备轨迹、OES 与晶圆深度 |
+| [沉积、外延与 CMP](datasets/deposition-cmp.md) | PVD 膜厚、外延光学量测与 CMP 去除率 |
+| [量测与缺陷检测](datasets/metrology.md) | 参考薄膜、SEM 图像、缺陷掩膜与晶圆图 |
+| [设备状态与运维](datasets/health.md) | 设备轨迹、故障注入、告警与维护事件 |
+| [工艺物理仿真](datasets/simulation.md) | 刻蚀形貌、沉积剖面、光刻与电磁场 |
+| [晶圆厂仿真与调度](datasets/fab.md) | 路由、设备组、搬运与批次派工 |
 
 ## 工艺轨迹、光谱和量测
 

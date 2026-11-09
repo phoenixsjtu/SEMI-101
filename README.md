@@ -37,9 +37,14 @@
 
 ## 04 半导体设备数据集
 
-查机台配方、运行轨迹、晶圆量测和仿真结果。按工艺、量测、运维、仿真与调度选读，再核对样本单位、关联键和许可。
+从覆盖矩阵查哪些设备有配方数值、原始时序、实测和仿真结果。进入工序专题后，可以直接核对数据文件、字段、关联键和配套代码。
 
-[数据集章节](catalog/datasets.md) · [可筛选总表](catalog/datasets/inventory.csv)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/datasets/coverage-dark.svg">
+  <img src="assets/datasets/coverage-light.svg" width="800" alt="半导体设备数据覆盖热图。文字矩阵见下方链接。">
+</picture>
+
+[进入数据集专题](catalog/datasets.md) · [可点击矩阵](catalog/datasets/matrix.md) · [可筛选总表](catalog/datasets/inventory.csv)
 
 <div><a name="research-resources"></a></div>
 
